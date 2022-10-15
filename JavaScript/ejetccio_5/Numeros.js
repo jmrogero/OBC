@@ -11,7 +11,7 @@ let pesoKg = 75.4;
 console.log(pesoKg);
 
 //- Una variable que contenga tu altura en metros redondeada hacia arriba
-let alturaMRedondeoAlto = Math.ceil(pesoKg);
+let alturaMRedondeoAlto = Math.ceil(alturaM);
 console.log(alturaMRedondeoAlto);
 
 //- Una variable que contenga tu peso en kilogramos redondeado hacia abajo
