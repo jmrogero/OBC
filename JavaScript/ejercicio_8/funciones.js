@@ -9,8 +9,8 @@ function siempreTrue() {
   
   // - Una función asíncrona que utilice un setTimeout y pase por consola un "Hola soy una promesa" 5 segundos después de haberse ejecutado
   function asincrona() {
-      return true;
+      return ;
     }
-  
+    console.log(devuelveTrue)
   // - Una función generadora de índices pares automáticos
   
