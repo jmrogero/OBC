@@ -1,8 +1,9 @@
 
-const num = 1;
+const num = "Error";
 try{
 num === 2;
 console.log("Este numero es igual a 2")
+registrador
 }
 catch (e) {
     console.log("Este numero no es igual a 2")
@@ -15,7 +16,7 @@ catch (e) {
 const winston = require('winston');
 
 const logger = winston.createLogger({
-  level: 'info',
+  level: 'silly',
   format: winston.format.json(),
   defaultMeta: { service: 'user-service' },
   transports: [
