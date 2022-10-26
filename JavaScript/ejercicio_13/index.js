@@ -1,5 +1,5 @@
 //Una cadena de texto con tu Nombre
-let nombre = 'Jose Maria';
+let nombre = "Jose Maria";
 console.log(nombre);
 
 //Otra cadena de texto con tu Apellido
